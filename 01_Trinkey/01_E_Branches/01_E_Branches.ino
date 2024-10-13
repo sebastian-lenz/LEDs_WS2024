@@ -35,7 +35,7 @@ void loop() {
   }
 
   // Setze die Farbe auf den pulsierenden Wert
-  pixels.fill(pixels.Color(colorValue, 0, 0));
+  pixels.setPixelColor(0, pixels.Color(colorValue, 0, 0));
 
   // Aktualisiert die LED
   pixels.show();

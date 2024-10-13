@@ -17,6 +17,6 @@ void setup() {
 
 // Wird immer wieder in Endlosschleife aufgerufen.
 void loop() {
-  pixels.fill(pixels.Color(255, 0, 100));
+  pixels.setPixelColor(0, pixels.Color(255, 0, 100));
   pixels.show();
 }

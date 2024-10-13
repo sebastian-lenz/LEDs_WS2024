@@ -23,7 +23,7 @@ void loop() {
     // Button ist nicht gedrückt: Nichts tun
   } else {
     // Button ist gedrückt: Setze die Farbe der LED auf einen zufälligen Wert
-    pixels.fill(pixels.Color(
+    pixels.setPixelColor(0, pixels.Color(
       random(0, 255),
       random(0, 255),
       random(0, 255)
